@@ -11,8 +11,9 @@ This API takes firstname and dob as input and generates a summary with nickname,
   ```pip install mysql```<br/>
   ```pip install mysql-connector-python```<br/>
   ```pip install mysqlclient```<br/>
-3. Navigate to the folder containing flask_api.py and run it using ```python flask_api.py```
-4. Open http://127.0.0.1:5000/ in the browser/postman and use the following URL to generate the output<br/>
+3. Once the package installation is complete, please download the dump.sql file and restore it to the mysql[on your system] to retain the schema.  
+4. Navigate to the folder containing flask_api.py and run it using ```python flask_api.py```
+5. Open http://127.0.0.1:5000/ in the browser/postman and use the following URL to generate the output<br/>
   http://127.0.0.1:5000/nameanalysis?firstname={firstname}&dob={dd/mm}
 
 ## About
